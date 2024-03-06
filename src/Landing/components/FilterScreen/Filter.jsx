@@ -154,7 +154,7 @@ export default function Filter() {
           instituteData = result.data.map((item,index)=> {
             return <a href='#' onClick={() => handleDetailsCreatClick(item._id)}  className="card-link" key={index}><Card
                   key={index}
-                  img={item.titleImage ?? 'http://localhost:4000/public/assets/images/ang-blue1.png'}
+                  img={item.titleImage ?? 'https://exp-imp-node.onrender.com/public/assets/images/ang-blue1.png'}
                   title={item.name}
                   shortName={item.shortName}
                   state={item.state}
@@ -197,7 +197,7 @@ export default function Filter() {
               <a href='#' onClick={() => handleDetailsCreatClick(item._id)} className="card-link" key={index}>
                 <Card
                   key={index}
-                  img={item.titleImage ?? 'http://localhost:4000/public/assets/images/ang-blue1.png'}
+                  img={item.titleImage ?? 'https://exp-imp-node.onrender.com/public/assets/images/ang-blue1.png'}
                   title={item.name}
                   shortName={item.shortName}
                   state={item.state}
@@ -249,7 +249,7 @@ export default function Filter() {
           instituteData = result.data.map((item,index)=> {
             return <a href='#' className="card-link" onClick={() => handleDetailsCreatClick(item._id)} key={index}><Card
                   key={index}
-                  img={item.titleImage ?? 'http://localhost:4000/public/assets/images/ang-blue1.png'}
+                  img={item.titleImage ?? 'https://exp-imp-node.onrender.com/public/assets/images/ang-blue1.png'}
                   title={item.name}
                   shortName={item.shortName}
                   state={item.state}
