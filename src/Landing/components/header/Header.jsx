@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react'
 import css from './Header.module.css'
 import Logo from '../../assets/logo.png'
 // import {CgShoppingBag} from 'react-icons/cg'
-import { GoThreeBars } from 'react-icons/go'
+// import { GoThreeBars } from 'react-icons/go';
+
 
 const Header = () => {
   const [ShowMenu, setShowMenu] = useState(false)
@@ -66,7 +67,7 @@ const Header = () => {
       </div>
       <div className={` ${css.right} ${menuStyle}`}>
         <div className={css.bars} onClick={toggleMenu}>
-          <GoThreeBars />
+          {/* <GoThreeBars /> */}
         </div>
         <ul className={css.menu} style={{ display: ShowMenu ? 'inherit' : 'none' }}>
           <li>
